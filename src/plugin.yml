@@ -1,0 +1,13 @@
+name: LavaRise
+version: 1.0.4
+author: therealcc
+main: me.therealcc.lavarise.Main
+description: Creates a floor of lava that rises every decided amount of seconds (Size defaults to 50x50, time defaults to 30 sec)
+api-version: '1.20'
+
+commands: 
+  beginlava:
+    description: /beginlava creates a border, and makes lava begin to rise every 30 seconds
+    usage: "Usage: /beginlava [size (positive int), time (sec)]"
+  endlava:
+    description: /endlava ends the rise of lava
